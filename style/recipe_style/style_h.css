@@ -1,0 +1,51 @@
+/* homemade-chicken-soup.html stylesheet */
+
+.header {
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border: 2px black;
+}
+
+img {
+    text-align: center;
+    border: 1px blue;
+}
+
+h2 {
+    color: darkred;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.oll, .ull {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.ordered_list, .unordered_list {
+    text-indent: 8px;
+    line-height: 1.5;
+    display: inline-block;
+    text-align: left;
+}
+
+.end_button {
+    align-items: right;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.end {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
