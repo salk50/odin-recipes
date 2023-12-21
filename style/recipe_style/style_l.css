@@ -7,9 +7,34 @@
     border: 2px black;
 }
 
-img {
+.wrapping-1 {
+    display: flex;
     text-align: center;
-    border: 1px blue;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.wrapping-des {
+    margin-left: 20px;
+}
+
+.wrapping-2 {
+    display: flex;
+}
+
+.wrapping-ing {
+    box-sizing: border-box;
+    width: 400px;
+    height: 160px;
+}
+
+.wrapping-st {
+    box-sizing: border-box;
+    width: 800px;
+}
+
+img {
+    display: inline-flex;
 }
 
 h2 {
