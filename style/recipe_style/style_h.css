@@ -1,5 +1,6 @@
 /* homemade-chicken-soup.html stylesheet */
 
+/* General */
 .header {
     text-align: center;
     color: white;
@@ -7,19 +8,40 @@
     border: 2px black;
 }
 
+.des-wrap {
+    display: flex;
+}
+
+.des-wrap img {
+    margin-left: 100px;
+    padding-right: 150px;
+}
+
 img {
     text-align: center;
     border: 1px blue;
 }
 
+.des h2 {
+    color: darkred;
+    text-align: left;
+    font-size: 30px;
+}
+
+.des p {
+    text-align: left;
+}
+
 h2 {
     color: darkred;
+    font-size: 30px;
+}
+
+body p, body h2 {
     text-align: center;
 }
 
-p {
-    text-align: center;
-}
+/* List styling */
 
 .oll, .ull {
     text-align: center;
@@ -33,6 +55,8 @@ p {
     text-align: left;
 }
 
+/* Back button */
+
 .end_button {
     align-items: right;
     font-size: 20px;
@@ -44,8 +68,48 @@ p {
     text-align: right;
 }
 
+/* end_button link */
+
 a {
     text-decoration: none;
     color: white;
-    background-color: black;
 }
+
+/* hover for back button */
+
+.end_button:hover {
+    cursor: pointer;
+    -webkit-animation: rainbow 1.5s infinite;
+    animation: rainbow 1.5s infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {background-color: #ff0000;}
+    10% {background-color: #ff8000;}
+    20% {background-color: #ffff00;}
+    30% {background-color: #80ff00;}
+    40% {background-color: #00ff00;}
+    50% {background-color: #00ff80;}
+    60% {background-color: #00ffff;}
+    70% {background-color: #0080ff;}
+    80% {background-color: #0000ff;}
+    90% {background-color: #8000ff;}
+    100% {background-color: #ff0080;}
+}
+
+@keyframes rainbow {
+    0% {background-color: #ff0000;}
+    10% {background-color: #ff8000;}
+    20% {background-color: #ffff00;}
+    30% {background-color: #80ff00;}
+    40% {background-color: #00ff00;}
+    50% {background-color: #00ff80;}
+    60% {background-color: #00ffff;}
+    70% {background-color: #0080ff;}
+    80% {background-color: #0000ff;}
+    90% {background-color: #8000ff;}
+    100% {background-color: #ff0080;}
+}
+
+
+
