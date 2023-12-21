@@ -8,12 +8,40 @@
 }
 
 .list {
-    text-align: center;
+    text-align: left;
     list-style: none;
+    display: inline-block;
     font-size: 30px;
+}
+
+.b1:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.b2:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.b3:hover {
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.blk {
+    text-align: center;
+    list-style-position: inside;
 }
 
 a {
     text-decoration: none;
     font-size: 20px;
+}
+
+a:hover {
+    color:white;
 }
